@@ -1,0 +1,689 @@
+
+.background{
+   width: 100%;
+   height: 600px;
+    background-image: url('image/hag.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    opacity: 10;
+}
+
+
+
+
+
+/* START SECTION ONE */
+.secone{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.secone #english{
+    width: 7%;
+    /* height: 50px; */
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: aqua; */
+    border-right: 1px solid white;
+    margin-right: 9px;
+    color: aliceblue;
+}
+
+.secone a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.secone a h3{
+    font-weight: 100;
+}
+.secone #ship{
+    margin-right: 30px;
+    
+}
+
+/* START SECTION TWO */
+.sectwo{
+    width: 100%;
+    height: 100px;
+    /* background-color: black; */
+    display: flex;
+}
+.sectwo .logo{
+    width: 7%;
+    height: 100px;
+    /* background-color: cyan; */
+}
+
+.sectwo .logo i{
+    width: 100px;
+    height: 100px;
+}
+
+.sectwo nav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    /* background-color: black; */
+}
+.sectwo nav li{
+    list-style: none;
+    padding: 10px;
+}
+.sectwo nav li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.sectwo nav li a:hover{
+  border-bottom: 1px solid white;
+}
+.sectwo nav li h3{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+.sectwo nav li h3:hover{
+    border-bottom: 1px solid white;
+  }
+.sectwo .directs{
+    width: 20%;
+    height: 100px;
+    text-align: right;
+    justify-items: center;
+    /* background-color: blue; */
+}
+.sectwo .directs a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* START SECTION THREE */
+.secthree{
+    margin-top: 300px;
+    width: 100%;
+    height: 100px;
+    /* background-color: white; */
+    /* display: flex; */
+}
+.secthree a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 30px;
+    gap: 1rem;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.secthree a:first-child{
+   
+    font-size: 28px;
+}
+
+
+/* PICTURES START */
+.pictures{
+    margin-top: 50px;
+    width: 100%;
+    height: 850px;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.pictures .pict1{
+    width: 27%;
+    height: 800px;
+    /* background-color: bisque; */
+    margin-left: 9.5%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pictures .pict1 #sui{
+    width: 100%;
+    height: 500px;
+    background-image: url('image/amen.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+.pictures .pict1 #sui:hover{
+    width: 100%;
+    height: 500px;
+    background-image: url('image/pic5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    
+}
+
+
+.pictures .pict1 #pol{
+    width: 100%;
+    height: 295px;
+    background-image: url('image/pic4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 295px;
+    margin-top: 5px;
+}
+
+
+
+/* PICT2 */
+.pictures .pict2{
+    width: 27%;
+    height: 800px;
+    /* background-color: bisque; */
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: aliceblue;
+    text-align: center;
+    justify-items: center;
+}
+.pictures .pict2 #pem{
+    width: 100%;
+    height: 398px;
+    background-image: url('image/pic2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 398px;
+    justify-content: center;
+
+}
+.pictures .pict2 #kin{
+    width: 100%;
+    height: 398px;
+    background-image: url('image/pic3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 398px;
+    margin-top: 5PX;
+}
+
+
+
+/* pict3 */
+.pictures .pict3{
+    width: 27%;
+    height: 800px;
+    /* background-color: bisque; */
+    text-align: center;
+}
+.pictures .pict3 #shi{
+    width: 100%;
+    height: 500px;
+    background-image: url('image/hag.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+.pictures .pict3 #lea{
+    width: 100%;
+    height: 295px;
+    background-image: url('image/amen.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 295px;
+    margin-top: 5PX;
+}
+
+.pictures a{
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+/* VIDEO ONE */
+.video {
+    width: 100%;
+    height: 900px;
+    /* background-color: rgb(224, 227, 230); */
+    text-align: center;
+    /* opacity: .4; */
+}
+.video h1{
+    opacity: none;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-weight:100;
+}
+
+.video h3{
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.video a button{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+.video a button:hover{
+    background-color: rgb(150, 150, 161);
+    color: black;
+}
+
+
+/* SUITABLE STARTS */
+.suitable{
+    width: 100%;
+    height: 700px;
+    /* background-color: teal; */
+    display: flex;
+}
+.suitable .picture{
+    width: 33%;
+    height: 600px;
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+.suitable .picture img{
+    width: 100%;
+    height: 600px;
+}
+
+.suitable .selections{
+    width: 67%;
+    height: 600px;
+    margin-top: 50px;
+    /* background-color: bisque; */
+}
+.suitable .selections .swit{
+    width: 100%;
+    height: 130px;
+    /* background-color: blue; */
+    text-align: center;
+    font-size: 30px;
+}
+
+.suitable .selections .choose{
+    width: 100%;
+    height: 470px;
+    /* background-color: brown; */
+    display: flex;
+}
+.suitable .selections .choose .select{
+    width: 24%;
+    height: 470px;
+    /* background-color: blueviolet; */
+   margin-left:0.9%;
+}
+.choose .select .image1{
+    width: 100%;
+    height: 250px;
+    background-image: url('image/waoo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    /* background-color: aqua; */
+}
+.choose .select .image1:hover{
+    width: 100%;
+    height: 250px;
+    background-image: url('image/amen.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    /* background-color: aqua; */
+}
+
+
+.choose .select .image2{
+    width: 100%;
+    height: 250px;
+    background-image: url('image/hag.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    /* background-color: aqua; */
+}
+.choose .select .image2:hover{
+    width: 100%;
+    height: 250px;
+    background-image: url('image/4.jfif');
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    /* background-color: aqua; */
+}
+
+
+.choose .select .image3{
+    width: 100%;
+    height: 250px;
+    background-image: url('image/chird.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    /* background-color: aqua; */
+}
+.choose .select .image3:hover{
+    width: 100%;
+    height: 250px;
+    background-image: url('image/magazine.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    /* background-color: aqua; */
+}
+
+
+.choose .select .image4{
+    width: 100%;
+    height: 250px;
+    background-image: url('image/brothers.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    /* background-color: aqua; */
+}
+.choose .select .image4:hover{
+    width: 100%;
+    height: 250px;
+    background-image: url('image/amen.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    /* background-color: aqua; */
+}
+
+
+.choose .select .image-discribe{
+    width: 100%;
+    height: 20px;
+    cursor: default;
+}
+.choose .select .image-discribe h4{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+/* RIVIERS STARTS */
+.rivier{
+    width: 100%;
+    height: 600px;
+    background-image: url('image/hag.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+}
+.rivier h3{
+    margin-top: 450px;
+    margin-left: 50px;
+
+}
+.rivier h3 a{
+    text-decoration: none;
+color: aliceblue;
+font-weight: 100;
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.rivier h4{
+    
+    margin-left: 50px;
+}
+.rivier h4 a{
+text-decoration: none;
+color: aliceblue;
+font-weight: 100;
+font-size: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* TAP MAJOR STATRS */
+.tap{
+    width: 100%;
+    height: 600px;
+    /* background-color: violet; */
+    display: flex;
+}
+.tap .tap1{
+    width: 50%;
+    height: 600px;
+    background-image: url('image/brothers.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+}
+.tap .tap2{
+    width: 50%;
+    height: 600px;
+    background-image: url('image/magazine.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+}
+.tap .tap1 h3{
+    margin-top: 450px;
+    margin-left: 50px;
+
+}
+.tap .tap1 h3 a{
+text-decoration: none;
+color: aliceblue;
+font-weight: 100;
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tap .tap1 h4{
+    
+    margin-left: 50px;
+}
+.tap .tap1 h4 a{
+text-decoration: none;
+color: aliceblue;
+font-weight: 100;
+font-size: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* STORE LOCATION STARTS */
+.store{
+    width: 100%;
+    height: 600px;
+    /* background-color: thistle; */
+    display: flex;
+}
+.store .map{
+width: 65%;
+height: 600px;
+}
+.store .finds{
+    width: 35%;
+    height: 600px;
+}
+.store .finds form{
+    margin-top: 220px;
+}
+.store .finds form label{
+    font-size: 30px;
+    margin-top: 300px;
+}
+.store .finds form select{
+    width: 400px;
+    height: 60px;
+}
+.store .finds form h3{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* LEGENDS STARTS */
+.legends{
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.legends .legend1{
+    width: 33%;
+    height: 300px;
+    background-image: url('image/waoo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-left: 0.3%;
+}
+.legends .legend2{
+    width: 33%;
+    height: 300px;
+    background-image: url('image/waoo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-left: 0.3%;
+}
+.legends .legend3{
+    width: 33%;
+    height: 300px;
+    background-image: url('image/waoo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-left: 0.3%;
+}
+.legends a{
+   color: white;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+/* REGISTERING STARTS */
+.register{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.register .sign{
+    width: 35%;
+    height: 150px;
+    cursor: default;
+}
+.register .sign h4{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    margin-left: 30%;
+}
+.register .form form{
+    width: 100%;
+    display: flex;
+    /* height: 70px; */
+    margin-top: 30px;
+}
+.register .form form #email{
+    width: 48%;
+    margin-right: 2%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.register .form form #submit{
+    width: 48%;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    opacity: .6;
+}
+.register .form form #submit:hover{
+    color: black;
+    background-color: darkgrey;
+}
+
+
+.register .form{
+    width: 50%;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+.register .form a{
+    color: black;
+}
+
+
+
+
+
+/* FOOTER STARTS */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    opacity: .9;
+}
+footer .footer-info{
+    width: 100%;
+    height: 340px;
+    display: flex;
+}
+footer .footer-info .contacts{
+    width: 20%;
+    height: 340px;
+    /* background-color: red; */
+    margin-left: 3%;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .footer-info .clients{
+    width: 20%;
+    height: 340px;
+    /* background-color: rgb(123, 255, 0); */
+    
+}
+footer .footer-info .clients a{
+   color: white;
+   text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+}
+footer .footer-info .setting{
+    width: 20%;
+    height: 340px;
+    /* background-color:seagreen; */
+}
+footer .footer-info .setting a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+}
+footer .footer-info .media{
+    width: 20%;
+    height: 340px;
+    /* background-color: rgb(38, 0, 255); */
+    margin-left: 15%;
+    margin-right: 2%;
+    text-align: right;
+    font-size: 13px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .footer-info .media i{
+    font-size: 20px;
+    margin-right:10px ;
+}
+footer .ship{
+    width: 97%;
+    height: 60px;
+    align-items: center;
+    color: aliceblue;
+    margin-left: 3%;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: aliceblue; */
+}
+footer .ship a{
+    color: aliceblue;
+    margin-left: 2px;
+    margin-right: 16px;
+}
+
